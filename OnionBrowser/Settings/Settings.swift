@@ -409,7 +409,7 @@ class Settings: IPtProxyUI.Settings {
 	class var useBuiltInTor: Bool? {
 		get {
 			if UserDefaults.standard.object(forKey: "use_builtin_tor") == nil {
-				return nil
+				return true
 			}
 
 			return UserDefaults.standard.bool(forKey: "use_builtin_tor")

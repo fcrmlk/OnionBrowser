@@ -11,10 +11,10 @@
 // git update-index --no-skip-worktree Config.xcconfig
 
 
-PRODUCT_BUNDLE_IDENTIFIER[config=Debug] =
-DEVELOPMENT_TEAM[config=Debug] =
+PRODUCT_BUNDLE_IDENTIFIER[config=Debug] = com.standAlone.torios
+DEVELOPMENT_TEAM[config=Debug] = XY338TPK8F
 PROVISIONING_PROFILE_SPECIFIER[config=Debug] =
 
-PRODUCT_BUNDLE_IDENTIFIER[config=Release] = com.miketigas.OnionBrowser
-DEVELOPMENT_TEAM[config=Release] = 68QUP6KP2C
+PRODUCT_BUNDLE_IDENTIFIER[config=Release] = com.standAlone.torios
+DEVELOPMENT_TEAM[config=Release] = XY338TPK8F
 PROVISIONING_PROFILE_SPECIFIER[config=Release] = 2023b Onion Browser Distribution

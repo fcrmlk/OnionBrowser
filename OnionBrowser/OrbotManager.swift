@@ -79,9 +79,9 @@ class OrbotManager : NSObject, OrbotStatusChangeListener {
 	func checkStatus() -> UIViewController? {
 		OrbotKit.shared.removeStatusChangeListener(self)
 
-		if !Settings.didWelcome {
-			return WelcomeViewController()
-		}
+//		if !Settings.didWelcome {
+//			return WelcomeViewController()
+//		}
 
 		if #available(iOS 17.0, *) {
 			if let useBuiltinTor = Settings.useBuiltInTor {
