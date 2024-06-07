@@ -26,6 +26,7 @@ PODS:
   - Tor/GeoIP (408.10.1):
     - Tor/CTor
   - TUSafariActivity (1.0.4)
+  - WireGuardKit (0.3)
 
 DEPENDENCIES:
   - DTFoundation/DTASN1
@@ -39,6 +40,7 @@ DEPENDENCIES:
   - SDCAlertView (~> 10)
   - Tor/GeoIP (~> 408.10)
   - TUSafariActivity
+  - WireGuardKit
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -54,6 +56,7 @@ SPEC REPOS:
     - SDCAlertView
     - Tor
     - TUSafariActivity
+    - WireGuardKit
 
 EXTERNAL SOURCES:
   FavIcon:
@@ -78,7 +81,8 @@ SPEC CHECKSUMS:
   SDCAlertView: 5fbc48cae6d7bf9781097e3f27883924ef3b922c
   Tor: 4aa4aee031f892efa43d1afb01c90565990c6312
   TUSafariActivity: afc55a00965377939107ce4fdc7f951f62454546
+  WireGuardKit: 8b9e7f28441b67aafe60d59c15b8c70bed5ab092
 
-PODFILE CHECKSUM: 3822b5fe8b3e4a42b1162e84af862139d7498ab7
+PODFILE CHECKSUM: 6501708f466384aa52b385f78e6587ebcc51dd89
 
 COCOAPODS: 1.15.2

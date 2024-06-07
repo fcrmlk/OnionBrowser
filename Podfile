@@ -15,6 +15,7 @@ target 'OnionBrowser' do
   pod 'MBProgressHUD', '~> 1.2'
   pod 'Eureka', '~> 5.3'
   pod 'ImageRow', '~> 4.1'
+pod 'WireGuardKit'
 
   pod 'Tor/GeoIP',
     '~> 408.10'
